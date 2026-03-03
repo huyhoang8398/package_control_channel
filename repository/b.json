@@ -897,6 +897,17 @@
 			]
 		},
 		{
+			"name": "BitBake Syntax Highlighting",
+			"details": "https://github.com/huyhoang8398/BitBake-Syntax",
+			"labels": ["bitbake", "yocto", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3084",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bitbake Syntax",
 			"details": "https://github.com/Driim/bitbake-syntax",
 			"labels": ["language syntax"],
