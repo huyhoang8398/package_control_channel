@@ -566,7 +566,7 @@
 		{
 			"name": "CFDocs",
 			"details": "https://github.com/mikesprague/sublime-cfdocs",
-			"labels": ["cfdocs", "cfml", "lucee", "railo", "coldfusion", "documentation", "search" ],
+			"labels": ["cfdocs", "cfml", "lucee", "railo", "coldfusion", "documentation", "search"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -762,7 +762,7 @@
 		{
 			"name": "Charmci",
 			"details": "https://github.com/matthiasdiener/Charmci-Sublime-Syntax",
-			"description" : "Syntax highlighting for Charm++ .ci files",
+			"description": "Syntax highlighting for Charm++ .ci files",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -794,7 +794,7 @@
 		{
 			"name": "Cheatsheet",
 			"author": "Victor Rachieru",
-			"description" : "Quick reference for those pesky little details that just won't stay in your head.",
+			"description": "Quick reference for those pesky little details that just won't stay in your head.",
 			"details": "https://github.com/vrachieru/cheatsheet",
 			"labels": ["cheatsheet", "documentation", "snippets", "utilities"],
 			"releases": [
@@ -1036,7 +1036,7 @@
 		},
 		{
 			"name": "Chrome Color Scheme",
-			"description" : "Syntax theme mimicking Chrome Developer Tools",
+			"description": "Syntax theme mimicking Chrome Developer Tools",
 			"details": "https://github.com/mapsiter/Chrome-Color-Scheme",
 			"labels": ["color scheme", "language syntax"],
 			"releases": [
@@ -1090,16 +1090,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "ChromiumTodoView",
-			"details": "https://github.com/dougt/ChromiumTodoView-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1227,7 +1217,7 @@
 			]
 		},
 		{
-			"name" : "CiteTeX",
+			"name": "CiteTeX",
 			"details": "https://github.com/alex1632/citetex",
 			"labels": ["latex", "tex", "cite"],
 			"author": "Alexander K.",
@@ -1267,10 +1257,12 @@
 			"homepage": "https://www.connected-environments.org",
 			"author": "sjg",
 			"labels": ["snippets"],
-			"releases": [{
-				"sublime_text": "*",
-				"tags": true
-			}]
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
 		},
 		{
 			"name": "Clafer Tools",
@@ -1658,7 +1650,8 @@
 					"tags": true
 				}
 			]
-		},		{
+		},
+		{
 			"name": "CloudFormation Validation",
 			"details": "https://github.com/Coolstuff14/sublime-cloudformationbuild",
 			"labels": ["build system"],
@@ -1668,7 +1661,8 @@
 					"tags": true
 				}
 			]
-		},{
+		},
+		{
 			"name": "Cloudup",
 			"details": "https://github.com/justinshreve/SublimeCloudup",
 			"releases": [
@@ -2037,16 +2031,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Code2Docs Documentation Generator (docco)",
-			"details": "https://github.com/tikot/sublime-code2docs",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2763,7 +2747,7 @@
 			"name": "Color Scheme - Pastels UI",
 			"author": "E1ectroN",
 			"details": "https://github.com/solo-s/sublime-pastels-ui",
-			"labels": [ "color scheme" ],
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -2878,13 +2862,7 @@
 			"details": "https://github.com/braver/ColorConverter",
 			"donate": "https://ko-fi.com/koenlageveen",
 			"labels": ["css", "colors", "utilities"],
-			"previous_names": [
-				"Color Convert",
-				"CSS Color Converter",
-				"Hex to HSL Color Converter",
-				"Hex to RGB Converter",
-				"Hex-to-RGBA"
-			],
+			"previous_names": ["Color Convert", "CSS Color Converter", "Hex to HSL Color Converter", "Hex to RGB Converter", "Hex-to-RGBA"],
 			"releases": [
 				{
 					"sublime_text": ">=4143",
@@ -3212,7 +3190,7 @@
 		},
 		{
 			"name": "CommentFold",
-			"description" : "Gives an overview of your comments by folding all other code",
+			"description": "Gives an overview of your comments by folding all other code",
 			"details": "https://github.com/mapsiter/CommentFold",
 			"labels": ["utilities", "code navigation"],
 			"releases": [
@@ -3393,7 +3371,7 @@
 			"name": "ComplexBuild",
 			"details": "https://github.com/lucteo/ComplexBuild",
 			"author": "lucteo",
-			"labels": ["build system","workflow"],
+			"labels": ["build system", "workflow"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -3616,6 +3594,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ConvCalculate",
+			"details": "https://github.com/convictss/ConvSublimeCalculate",
+			"author": "Convict Yellow (Kailian.Huang)",
+			"labels": ["calculator"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -4060,10 +4050,10 @@
 			]
 		},
 		{
-			"name" : "CppToolkit",
-			"details" : "https://github.com/mccartnm/CppToolkitSublimeText",
+			"name": "CppToolkit",
+			"details": "https://github.com/mccartnm/CppToolkitSublimeText",
 			"labels": ["auto-complete", "autodeclare", "refactor", "c++"],
-			"releases" : [
+			"releases": [
 				{
 					"sublime_text": ">=3000",
 					"tags": true

@@ -2,8 +2,10 @@ name: Package test
 
 on:
   pull_request:
+    paths:
+      - 'repository/**'
   issue_comment:
-    types: [created]  # run when comment added with "📦"
+    types: [created]  # run when comment added with "📦" or "/review"
 
 jobs:
   # run package test on pull request event (but not on drafts)
@@ -12,18 +14,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Diff and review changed/added packages
-        uses: kaste/st_package_reviewer/gh_action@418eee2d016d896a9302fd514232b8672615e7d2
+        uses: kaste/st_package_reviewer/gh_action@57f1ebb3caaca6885ec51c4cf7c605df2415b93d
         with:
           pr: ${{ github.event.pull_request.html_url }}
           file: repository.json
 
   # run package test on demand via comment on the pr
   package_comment:
-    if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request != null && contains(github.event.comment.body, '📦') }}
+    if: >-
+      ${{
+        github.event_name == 'issue_comment' &&
+        github.event.issue.pull_request != null &&
+        (
+          contains(github.event.comment.body, '📦') ||
+          contains(github.event.comment.body, '/review')
+        )
+      }}
     runs-on: ubuntu-latest
     steps:
       - name: Diff and review changed/added packages
-        uses: kaste/st_package_reviewer/gh_action@418eee2d016d896a9302fd514232b8672615e7d2
+        uses: kaste/st_package_reviewer/gh_action@57f1ebb3caaca6885ec51c4cf7c605df2415b93d
         with:
           pr: ${{ github.event.issue.pull_request.html_url }}
           file: repository.json

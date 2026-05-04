@@ -13,6 +13,17 @@
 			]
 		},
 		{
+			"name": "D2",
+			"details": "https://gitlab.com/sotilrac/d2-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3084",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "D3.js Snippets",
 			"details": "https://github.com/fabriciotav/d3-snippets-for-sublime-text-2",
 			"labels": ["snippets"],
@@ -412,7 +423,11 @@
 			"labels": ["language syntax", "debian"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "3092 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1147,9 +1162,7 @@
 			"name": "Django Snippets",
 			"details": "https://github.com/mattseymour/sublime-django",
 			"labels": ["snippets", "django"],
-			"previous_names": [
-				"Django"
-			],
+			"previous_names": ["Django"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1355,15 +1368,7 @@
 					"tags": true
 				}
 			],
-			"labels": [
-				"auto-complete",
-				"formatting",
-				"snippets",
-				"python",
-				"automatic",
-				"docstring",
-				"generator"
-			]
+			"labels": ["auto-complete", "formatting", "snippets", "python", "automatic", "docstring", "generator"]
 		},
 		{
 			"name": "Docker Based Build Systems",
@@ -1391,7 +1396,7 @@
 		{
 			"name": "DocPHPManualer",
 			"details": "https://github.com/garveen/docphp",
-			"labels": ["document","php","manual"],
+			"labels": ["document", "php", "manual"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

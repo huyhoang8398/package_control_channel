@@ -523,7 +523,7 @@
 		{
 			"name": "File Filter",
 			"details": "https://github.com/vsc-cnst/SublimeTextFileFilter",
-			"labels": [ "search", "logs", "utilities", "code navigation" ],
+			"labels": ["search", "logs", "utilities", "code navigation"],
 			"releases": [
 				{
 					"sublime_text": ">4000",
@@ -1423,17 +1423,6 @@
 			]
 		},
 		{
-			"name": "Fold ABL",
-			"details": "https://github.com/RudnikovPaul/FoldABL",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["windows", "osx"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Fold Comments",
 			"details": "https://github.com/oskarols/foldcomments",
 			"labels": ["formatting"],
@@ -1642,7 +1631,7 @@
 			"name": "Formatter",
 			"details": "https://github.com/bitst0rm-pub/Formatter",
 			"author": "bitst0rm",
-			"labels": ["formatting", "minify", "prettify", "css", "scss", "sass", "less", "html", "xml", "javascript", "json", "markdown", "perl", "php", "python", "ruby", "bash", "c", "c++", "c#", "d", "objc", "java"],
+			"labels": ["formatting", "minify", "prettify"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

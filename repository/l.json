@@ -372,7 +372,7 @@
 		{
 			"name": "Laravel Lang",
 			"details": "https://github.com/mariovalney/laravel-lang-for-sublime",
-			"labels": ["formatting", "snippets","laravel", "helper",  "l10n"],
+			"labels": ["formatting", "snippets", "laravel", "helper", "l10n"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -640,18 +640,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "LazyTimeTracker",
-			"details": "https://github.com/Bwata/LazyTimeTracker",
-			"labels": ["time", "tracking"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
-					"tags": true
 				}
 			]
 		},
@@ -1157,12 +1145,7 @@
 		{
 			"name": "LinesMultisets",
 			"details": "https://github.com/heldev/sublime-lines-multisets",
-			"labels": [
-				"text manipulation",
-				"diff",
-				"difference",
-				"merge"
-			],
+			"labels": ["text manipulation", "diff", "difference", "merge"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1173,12 +1156,7 @@
 		{
 			"name": "LingExRef",
 			"details": "https://github.com/KenyC/LingExRef",
-			"labels": [
-				"latex",
-				"gb4e",
-				"linguex",
-				"expex"
-			],
+			"labels": ["latex", "gb4e", "linguex", "expex"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -2027,16 +2005,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "lufylegendDev",
-			"details": "https://github.com/leitwolf/lufylegendDev",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},

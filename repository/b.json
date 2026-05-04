@@ -230,6 +230,17 @@
 			]
 		},
 		{
+			"name": "Base64AutoCharset",
+			"details": "https://github.com/emotion/base64-decode-autocharset",
+			"labels": ["utilities", "base64", "encoding", "charset", "gb18030", "decode", "cjk"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bash Build System",
 			"details": "https://github.com/macite/sublimebashbuildsystem",
 			"labels": ["build system"],
@@ -705,8 +716,7 @@
 			"name": "BetterSwitchHeaderImplementation",
 			"details": "https://github.com/rwols/BetterSwitchHeaderImplementation",
 			"labels": ["utilities", "file open", "code navigation", "c", "c++", "objective-c", "objective-c++"],
-			"releases":
-			[
+			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -877,7 +887,7 @@
 			"name": "bioSyntax",
 			"details": "https://github.com/bioSyntax/bioSyntax-sublime",
 			"homepage": "https://bioSyntax.org",
-			"labels": [ "science", "bioinformatics", "biology", "language syntax" ],
+			"labels": ["science", "bioinformatics", "biology", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1013,7 +1023,7 @@
 		{
 			"name": "Blast Dark",
 			"details": "https://github.com/isferhossain/blast-dark",
-			"author": ["isferhossain","HitBlast"],
+			"author": ["isferhossain", "HitBlast"],
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1085,7 +1095,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "Block Cursor Everywhere",
 			"details": "https://github.com/karlhorky/BlockCursorEverywhere",
@@ -1371,11 +1381,22 @@
 		{
 			"name": "BowerInjector",
 			"details": "https://github.com/ismnoiet/BowerInjector",
-			"labels": ["bower injector","bower","inject","css","js"],
+			"labels": ["bower injector", "bower", "inject", "css", "js"],
 			"releases": [
 				{
 					"sublime_text": ">=3010",
 					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/vwheeler63/BoxDrawing",
+			"labels": ["box", "draw", "drawing", "line", "box drawing", "line drawing"],
+			"donate": "https://buymeacoffee.com/vwheeler63",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1583,7 +1604,7 @@
 			"details": "https://github.com/iamdjones/sublime-text-browser-sync",
 			"releases": [
 				{
-					"sublime_text":">=3000",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1753,6 +1774,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Bulk Renamer",
+			"details": "https://github.com/guille/sublime-bulk-renamer",
+			"labels": ["utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

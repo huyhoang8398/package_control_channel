@@ -88,6 +88,7 @@
 		"https://raw.githubusercontent.com/seanliang/ConvertToUTF8/master/packages.json",
 		"https://raw.githubusercontent.com/sentience/DokuWiki/master/packages.json",
 		"https://raw.githubusercontent.com/sentience/HyperlinkHelper/master/packages.json",
+		"https://raw.githubusercontent.com/siftystudio/viv/main/plugins/sublime/repository.json",
 		"https://raw.githubusercontent.com/sokolovstas/SublimeWebInspector/master/packages.json",
 		"https://raw.githubusercontent.com/soncy/AutoComments-for-Sublime-Text-2/master/packages.json",
 		"https://raw.githubusercontent.com/spectacles/CodeComplice/master/packages.json",
@@ -113,7 +114,6 @@
 		"https://raw.githubusercontent.com/wuub/SublimeREPL/master/packages.json",
 		"https://raw.githubusercontent.com/x3ns/x3-alpha-theme/master/packages.json",
 		"https://raw.githubusercontent.com/xgenvn/InputHelper/master/packages.json",
-		"https://raw.githubusercontent.com/zfkun/sublime-kissy-snippets/master/packages.json",
 		"https://tinkerwell.app/plugins/sublime/packages.json",
 		"https://tobygiacometti.com/sublime/packages.json"
 	]
