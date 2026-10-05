@@ -2988,6 +2988,17 @@
 			]
 		},
 		{
+			"name": "Sonokai",
+			"details": "https://github.com/huyhoang8398/Sonokai",
+			"labels": ["color scheme", "theme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Sophia",
 			"details": "https://github.com/aeternity/sublime-sophia",
 			"labels": ["language syntax", "blockchain", "contracts", "aeternity"],
