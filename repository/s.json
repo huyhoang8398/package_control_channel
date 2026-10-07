@@ -2990,7 +2990,7 @@
 		{
 			"name": "Sonokai",
 			"details": "https://github.com/huyhoang8398/Sonokai",
-			"labels": ["color scheme", "theme"],
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
